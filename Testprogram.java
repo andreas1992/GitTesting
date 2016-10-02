@@ -11,4 +11,8 @@ public class Testprogram {
         System.out.println("Hello and welcome " + name + "!");
     }
     
+    public String getName() {
+        return name;
+    }
+    
 }
