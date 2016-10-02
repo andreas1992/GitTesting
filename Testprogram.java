@@ -14,4 +14,8 @@ public class Testprogram {
                             + lastname + "!");
     }
     
+    public String getNames() {
+        return name + " " + lastname;
+    }
+    
 }
