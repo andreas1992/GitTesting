@@ -1,8 +1,8 @@
 public class Main {
     
     public static void main (String args[]){
-        Testprogram testP = new Testprogram("Andreas");
+        Testprogram testP = new Testprogram("Andreas", "Semb");
         testP.printWelcome();
-        System.out.println("Name is " + testP.getName());
+        System.out.println(testP.getNames());
     }
 }
